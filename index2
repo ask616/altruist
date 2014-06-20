@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Altruist - Help the needy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+  </head>
+
+  <body style="background-color:#E74C3C;">
+
+<!--     <div class="describe">
+        <div class="row-fluid">
+          <div class="span10 offset1">
+            <div class="row-fluid" style="height:100%;">
+                <!--<div class="input-prepend span10 text-cenetr">
+                    <span class="add-on" style="color:#505050; font-size:48px; line-height:100px; height:100px; padding-left:25px; padding-right:25px; ">
+                        <p style="font-size: 56px; font-weight:bold;">$</p>
+                    </span>
+                    <input style="font-size:48px; height: 100px; font-weight:bold; width: 100%; padding-left:20px; padding-right:20px" type="text">
+                    <a href="#"><center>Send <span class="first-name">Ajay</span> a Yammbo!</center></a>
+                </div>
+                <div class="input-prepend input-append span10 text-center">
+                  <span class="add-on" style="color:#505050; font-size:48px; line-height:100px; height:100px; padding-left:25px; padding-right:25px;">$</span>
+                  <input style="font-size:48px; height: 100px; font-weight:bold; width: 25%; padding-left:20px; padding-right:20px" type="text" id='appendedInputButton'>
+                  <span class="add-on" style="color:#505050; font-size:48px; line-height:100px; height:100px; padding-left:25px; padding-right:25px;">.00</span>
+                  <button class="btn" type="button" style="color:#505050; font-size:48px; line-height:100px; height:100px; padding-left:25px; padding-right:25px;">Discover</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div> -->
+
+    <div class="describe" style="position:absolute;margin-top:10%;width:100%;">
+        <div class="row-fluid">
+          <div class="span10 offset1">
+            <div class="row-fluid" style="height:300px;">
+            <h1 class="text-center">Did you know?</h1><br><br>
+            <div class="input-prepend span10 text-cenetr input-append">
+                  <span class="add-on" style="color:#505050; font-size:48px; line-height:100px; height:100px; padding-left:25px; padding-right:25px; "><p style="font-size: 56px; font-weight:bold;">$</p></span>
+                  <input style="font-size:48px; height: 100px; font-weight:bold; width: 100%; padding-left:20px; padding-right:20px" type="text" value="See how your money can help" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                  <a href="#"><center>Send <span class="first-name">Ajay</span> a Yammbo!</center></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>
